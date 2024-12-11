@@ -6,6 +6,9 @@
     "openmaptiles": {
       "type": "raster",
       "tiles": ["https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png"],
+      "tileSize": 256,
+      "attribution": "&copy; OpenStreetMap Contributors",
+      "maxzoom": 19
     }
   },
   "layers": [
