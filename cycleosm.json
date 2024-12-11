@@ -4,12 +4,10 @@
   "metadata": {},
   "sources": {
     "openmaptiles": {
-      "type": "vector",
-      "url": "{{ TILE_URL }}"
+      "type": "raster",
+      "tiles": ["https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png"],
     }
   },
-  "sprite": "{{ SPRITE_URL }}",
-  "glyphs": "{{ GLYPHS_URL }}",
   "layers": [
     {
       "id": "background",
