@@ -4,7 +4,7 @@
   "metadata": {},
   "sources": {
     "openmaptiles": {
-      "type": "raster",
+      "type": "vector",
       "tiles": ["https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png"],
       "tileSize": 256,
       "attribution": "&copy; OpenStreetMap Contributors",
